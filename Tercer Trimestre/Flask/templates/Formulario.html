@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contáctanos</title>
+</head>
+<body>
+    <h1>MI PRIMER FORMULARIO</h1>
+    <form>
+        <label>Nombre:
+            <input type="text" name="nombre" />
+        </label>
+        <br>
+        <label>Apellido:
+            <input type="text" name="apellido" />
+        </label>
+        <br>
+        <label>Género:
+            <input type="radio" name="genero" value="masculino" /> Masculino
+            <input type="radio" name="genero" value="femenino" /> Femenino
+            <input type="radio" name="genero" value="otro" /> Otro
+        </label>
+        <br>
+        <label>Fecha de nacimiento:
+            <input type="date" name="nacimiento" />
+        </label>
+        <br>
+        <label>Tipo de documento:
+            <select name="tipo_documento">
+                <option>R.C</option>
+                <option>T.I</option>
+                <option>C.C</option>
+                <option>C.E</option>
+            </select>
+        </label>
+        <br>
+        <label>Número de identificación:
+            <input type="number" name="documento" />
+        </label>
+        <br>
+        <label>Teléfono:
+            <input type="tel" name="telefono" />
+        </label>
+        <br>
+        <label>Email:
+            <input type="email" name="email" />
+        </label>
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
